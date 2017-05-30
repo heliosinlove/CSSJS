@@ -117,7 +117,7 @@ jQuery(window).load(function() {
 			jQuery(divpopup).attr('id', 'myModal');
 			jQuery(divpopup).attr('class', 'linhnguyen-modal');
 			jQuery( "body" ).append(divpopup);
-			jQuery("#myModal").html("<a href='http://tragoppiaggio.vn' target='_blank'><img src='http://https://tragoppiaggio.vn/asset/upload/vespa_primavera/xanh_2/piaggio-vespa-primavera-012.png' width='500px'/><br/>Bán Vespa Piaggio</a>. Liên hệ: 0983386091. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery("#myModal").html("<a href='http://tragoppiaggio.vn' target='_blank'><img src='https://tragoppiaggio.vn/asset/upload/vespa_primavera/xanh_2/piaggio-vespa-primavera-012.png' width='500px'/><br/>Bán Vespa Piaggio</a>. Liên hệ: 0983386091. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
