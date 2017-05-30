@@ -1,4 +1,5 @@
-
+//please contact me giaiphapthuonghieu.org@gmail.com
+//website http://giaiphapthuonghieu.vn or http://faceseo.vn
 
 (function(JQuery) {
     JQuery.fn.linhnguyen = function(options) {        
@@ -19,7 +20,7 @@
 				modalBG = JQuery('.linhnguyen-modal-bg');
 
 			if(modalBG.length == 0) {
-				modalBG = JQuery('&lt;div class="linhnguyen-modal-bg" /&gt;').insertAfter(modal);
+				modalBG = JQuery('<div class="linhnguyen-modal-bg" />').insertAfter(modal);
 			}		    
 			modal.bind('linhnguyen:open', function () {
 			  modalBG.unbind('click.modalEvent');
@@ -116,7 +117,7 @@ jQuery(window).load(function() {
 			jQuery(divpopup).attr('id', 'myModal');
 			jQuery(divpopup).attr('class', 'linhnguyen-modal');
 			jQuery( "body" ).append(divpopup);
-			jQuery("#myModal").html("&lt;a href='http://tragoppiaggio.vn' target='_blank'><img src='http://https://tragoppiaggio.vn/asset/upload/vespa_primavera/xanh_2/piaggio-vespa-primavera-012.png' width='500px'/&gt;&lt;br/&gt;Học SEO chuyên sâu&lt;/a&gt;. Học tại nhà CEO Faceseo. &lt;h2&gt;&lt;a class='close-linhnguyen-modal'&gt;X&lt;/a&gt;&lt;/h2&gt;");
+			jQuery("#myModal").html("<a href='http://tragoppiaggio.vn' target='_blank'><img src='http://https://tragoppiaggio.vn/asset/upload/vespa_primavera/xanh_2/piaggio-vespa-primavera-012.png' width='500px'/><br/>Bán Vespa Piaggio</a>. Liên hệ: 0983386091. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
